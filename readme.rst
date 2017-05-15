@@ -39,6 +39,10 @@ It can also concatenate them into a single file called ``upload.tsv``.
 
 .. OpenDocument spreadsheets: https://en.wikipedia.org/wiki/OpenDocument
 
+(The mock data is drawn from
+folk songs, historical figures, and literary characters.
+No actual grades or personal information is stored in these spreadsheets.)
+
 Setup
 -----
 
