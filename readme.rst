@@ -37,7 +37,7 @@ but it lacks examples. This repository has three:
 These are generated from `OpenDocument spreadsheets`_ using a `<Makefile>`_.
 It can also concatenate them into a single file called ``upload.tsv``.
 
-.. OpenDocument spreadsheets: https://en.wikipedia.org/wiki/OpenDocument
+.. _OpenDocument spreadsheets: https://en.wikipedia.org/wiki/OpenDocument
 
 (The mock data is drawn from
 folk songs, historical figures, and literary characters.
@@ -104,3 +104,5 @@ they need to be uploaded to Blackboard:
 #. Leave "Delimiter Type" as "Auto".
 
 #. Click "Submit".
+
+#. Check for errors, then click "Submit" to confirm upload.
