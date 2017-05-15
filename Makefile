@@ -24,5 +24,8 @@ upload.tsv : $(TSV)
 	head -n 1 $< > $@
 	tail -q -n +2 $(TSV) >> $@
 
+readme.html : readme.rst
+	rst2html $< $@
+
 clean:
-	rm -f $(TSV) upload.tsv
+	rm -f $(TSV) upload.tsv readme.html
