@@ -28,4 +28,4 @@ readme.html : readme.rst
 	rst2html $< $@
 
 clean:
-	rm -f $(TSV) upload.tsv readme.html
+	rm -f -- $(TSV) upload.tsv readme.html
